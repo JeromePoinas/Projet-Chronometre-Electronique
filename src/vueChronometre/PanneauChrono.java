@@ -19,7 +19,6 @@ import coucheApplicative.ModeleChronometre;
  * 
  * @author Jérôme Poinas & Charles Neau !
  * 
- * 
  */
 public class PanneauChrono extends JPanel implements ConstanteMVC, Observer,
 		Runnable
@@ -151,7 +150,7 @@ public class PanneauChrono extends JPanel implements ConstanteMVC, Observer,
 	}
 
 	/**
-	 * Methode ui active ou desactive certain bouton.
+	 * Methode qui active ou desactive certain bouton.
 	 * 
 	 * @param demarrer
 	 *            active ou desactive le bouton demarrer.
