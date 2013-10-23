@@ -14,7 +14,7 @@ public class DigitsChronometre
 	/**
 	 * Permet de dessiner les chiffres.
 	 */
-	private static int	atMapX[][]	= { { 1, 1, 1, 1, 1, 1, 0 },
+	private static int	atMapChiffre[][]	= { { 1, 1, 1, 1, 1, 1, 0 },
 			{ 0, 0, 0, 0, 1, 1, 0 }, { 1, 0, 1, 1, 0, 1, 1 },
 			{ 1, 0, 0, 1, 1, 1, 1 }, { 0, 1, 0, 0, 1, 1, 1 },
 			{ 1, 1, 0, 1, 1, 0, 1 }, { 1, 1, 1, 1, 1, 0, 1 },
@@ -83,7 +83,7 @@ public class DigitsChronometre
 		// ##3##
 		//
 		// Segment 0
-		if (atMapX[valeur][0] == 1)
+		if (atMapChiffre[valeur][0] == 1)
 		{
 			agGraphic.setColor(lightColor);
 		}
@@ -103,7 +103,7 @@ public class DigitsChronometre
 		lcSegmentYS[4] = agPositionY;
 		agGraphic.fillPolygon(lcSegmentXS, lcSegmentYS, 5);
 		// Segment 1
-		if (atMapX[valeur][1] == 1)
+		if (atMapChiffre[valeur][1] == 1)
 		{
 			agGraphic.setColor(lightColor);
 		}
@@ -123,7 +123,7 @@ public class DigitsChronometre
 		lcSegmentYS[4] = agPositionY + (int) (height * 0.05);
 		agGraphic.fillPolygon(lcSegmentXS, lcSegmentYS, 5);
 		// Segment 2
-		if (atMapX[valeur][2] == 1)
+		if (atMapChiffre[valeur][2] == 1)
 		{
 			agGraphic.setColor(lightColor);
 		}
@@ -143,7 +143,7 @@ public class DigitsChronometre
 		lcSegmentYS[4] = agPositionY + (int) (height * 0.55);
 		agGraphic.fillPolygon(lcSegmentXS, lcSegmentYS, 5);
 		// Segment 3
-		if (atMapX[valeur][3] == 1)
+		if (atMapChiffre[valeur][3] == 1)
 		{
 			agGraphic.setColor(lightColor);
 		}
@@ -163,7 +163,7 @@ public class DigitsChronometre
 		lcSegmentYS[4] = agPositionY + height;
 		agGraphic.fillPolygon(lcSegmentXS, lcSegmentYS, 5);
 		// Segment 4
-		if (atMapX[valeur][4] == 1)
+		if (atMapChiffre[valeur][4] == 1)
 		{
 			agGraphic.setColor(lightColor);
 		}
@@ -183,7 +183,7 @@ public class DigitsChronometre
 		lcSegmentYS[4] = agPositionY + (int) (height * 0.55);
 		agGraphic.fillPolygon(lcSegmentXS, lcSegmentYS, 5);
 		// Segment 5
-		if (atMapX[valeur][5] == 1)
+		if (atMapChiffre[valeur][5] == 1)
 		{
 			agGraphic.setColor(lightColor);
 		}
@@ -203,7 +203,7 @@ public class DigitsChronometre
 		lcSegmentYS[4] = agPositionY + (int) (height * 0.05);
 		agGraphic.fillPolygon(lcSegmentXS, lcSegmentYS, 5);
 		// Segment 6
-		if (atMapX[valeur][6] == 1)
+		if (atMapChiffre[valeur][6] == 1)
 		{
 			agGraphic.setColor(lightColor);
 		}
