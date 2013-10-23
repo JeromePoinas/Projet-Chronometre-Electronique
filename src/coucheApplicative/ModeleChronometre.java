@@ -7,7 +7,7 @@ import utilitaire.ConstanteMVC;
  * La classe ModeleChronometre.
  * 
  * @author Jérôme
- * 
+ *         Charles Neau
  */
 public class ModeleChronometre extends Observable
 {
