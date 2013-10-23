@@ -17,8 +17,7 @@ import coucheApplicative.ModeleChronometre;
 /**
  * La classe PanneauChrono qui contiendra le chronometre.
  * 
- * @author Jérôme Poinas & Charles Neau !
- *         Et Jean.
+ * @author Jérôme Poinas & Charles Neau
  * 
  * 
  */
