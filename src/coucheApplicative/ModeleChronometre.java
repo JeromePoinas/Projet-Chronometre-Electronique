@@ -1,38 +1,49 @@
 package coucheApplicative;
 
 import java.util.Observable;
-
 import utilitaire.ConstanteMVC;
+
 /**
  * La classe ModeleChronometre.
+ * 
  * @author Jérôme
- *
+ * 
  */
-public class ModeleChronometre extends Observable{
-
+public class ModeleChronometre extends Observable
+{
 	/**
 	 * Methode de notifier les Observers des actions a faire.
-	 * @param info L'information à transmettre.
+	 * 
+	 * @param info
+	 *            L'information à transmettre.
 	 */
-	public void informer(Object info)
+	public void informer(final Object info)
 	{
 		setChanged();
 		notifyObservers(info);
 	}
-	
-	public void start() 
+
+	/**
+	 * Start.
+	 */
+	public void start()
 	{
 		informer(ConstanteMVC.DEMARRER);
 	}
 
-	public void stop() 
+	/**
+	 * Stop.
+	 */
+	public void stop()
 	{
 		informer(ConstanteMVC.ARRETER);
 	}
 
-	public void reinit() 
+	/**
+	 * Reinit.
+	 */
+	public void reinit()
 	{
 		informer(ConstanteMVC.REINIT);
 	}
-
 }
