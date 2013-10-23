@@ -47,8 +47,9 @@ public class PanneauChrono extends JPanel implements ConstanteMVC, Observer,
 	 */
 	private boolean						isPaused;
 	/** La couleur des chiffre du chronometre et de l'ombre des chiffres. */
-	private Color						couleurLabelChronometre,
-			couleurOmbreLabelChronometre;
+	private Color						couleurLabelChronometre;
+	/** The couleur ombre label chronometre. */
+	private Color						couleurOmbreLabelChronometre;
 	/** Notre thread qui compte. */
 	private Thread						runner				= null;
 	/** Moment ou on fait la pause. */
@@ -64,7 +65,7 @@ public class PanneauChrono extends JPanel implements ConstanteMVC, Observer,
 	/**
 	 * Les boutons.
 	 */
-	private final Map<String, JButton>	mesBoutons			= new HashMap<String, JButton>();
+	private final Map<String, JButton>	mesBoutons			= new HashMap<>();
 
 	/**
 	 * Constructeur complet du PanneauChrono.
