@@ -34,6 +34,7 @@ public class FenetreChronometre extends JFrame implements ConstanteMVC
 	 * @param args
 	 *            the arguments
 	 */
+	@SuppressWarnings("unused")
 	public static void main(final String[] args)
 	{
 		new FenetreChronometre();
