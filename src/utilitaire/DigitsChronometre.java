@@ -6,7 +6,7 @@ import java.awt.Graphics;
 /**
  * La classe LcdDigit.
  * 
- * @author Jérôme
+ * @author Jerome
  * 
  */
 public class DigitsChronometre

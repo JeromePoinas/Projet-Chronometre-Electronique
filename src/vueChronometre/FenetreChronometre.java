@@ -7,7 +7,7 @@ import utilitaire.ConstanteMVC;
 /**
  * La classe FenetreChronometre.
  * 
- * @author Jérôme
+ * @author Jerome Poinas
  */
 public class FenetreChronometre extends JFrame implements ConstanteMVC
 {
